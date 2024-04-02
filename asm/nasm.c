@@ -2317,7 +2317,7 @@ static void help(FILE *out)
         "\n"
         "   --reproducible attempt to produce run-to-run identical output\n"
         "\n"
-        "   --macho-min-os minos minimum os version for mach-o format(example: macos-11.0)\n"
+        "   --macho-min-os minos minimum os version for mach-o format(example: macos11.0, ios14.0-simulator, ios14.0-macabi)\n"
         "\n"
         "    -w+x          enable warning x (also -Wx)\n"
         "    -w-x          disable warning x (also -Wno-x)\n"
