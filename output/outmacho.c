@@ -2446,7 +2446,7 @@ bool macho_set_min_os(const char *str) {
             platform = PLATFORM_IOS;
         } else if ((strstr(environment, "simulator") == environment)) {
             platform = PLATFORM_IOSSIMULATOR;
-        } else if ((strstr(environment, "catalyst") == environment)) {
+        } else if ((strstr(environment, "catalyst") == environment) || (strstr(environment, "macabi") == environment)) {
             platform = PLATFORM_MACCATALYST;
         } else {
             nasm_free((char *)platform_ver);

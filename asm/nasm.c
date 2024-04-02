@@ -2540,7 +2540,7 @@ static void help(FILE *out, const char *what)
             "    --lprefix str  prepend the given string to local symbols\n"
             "    --lpostfix str append the given string to local symbols\n"
             "    --reproducible attempt to produce run-to-run identical output\n"
-            "    --macho-min-os minos minimum os version for mach-o format(example: macos-11.0)\n"
+            "    --macho-min-os minos minimum os version for mach-o format(example: macos11.0, ios14.0-simulator, ios14.0-macabi)\n"
             , out);
     }
     if (help_optor(with, HW_LIMIT)) {
